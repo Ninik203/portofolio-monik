@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    background-color: rgb(133, 144, 175);
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    background-color: rgb(2, 2, 8);
+}
+
+header .profile {
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(68, 82, 212, 0.345);
+}
+
+header .profile img {
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 10% 20%;
+}
+
+header .title {
+    flex: 1;
+    background-color: rgb(53, 52, 100);
+    color: rgba(143, 203, 203, 0.721);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .title .main p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+header .title .main span {
+    color: white;
+}
+
+header .title .sub p {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 20px 10px 20px;
+}
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(130, 164, 176);
+    width: 100%;
+    padding: 20px;
+}
+
+.post1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.post1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.exp h1 {
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
